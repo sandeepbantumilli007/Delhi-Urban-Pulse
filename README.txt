@@ -1,143 +1,242 @@
-# Smart City Mobility Analytics Dashboard
+# 🚍 Smart Mobility Analytics Platform
+### Comparative Analysis of Delhi & Bengaluru Public Transportation using Power BI
 
-## Overview
-
-Smart City Mobility Analytics Dashboard is an end-to-end Business Intelligence project developed using Power BI. The project integrates multiple urban mobility datasets including Delhi Bus GTFS, Delhi Metro GTFS, Traffic Data, Weather Data, and Demographic Data to provide actionable insights for city planners, transport authorities, and decision-makers.
-
-The dashboard enables monitoring of transport operations, traffic conditions, weather impact, and overall mobility performance through interactive visual analytics.
 
 ---
 
-## Objectives
+# 📌 Project Overview
 
-- Integrate multimodal transportation datasets
-- Analyze traffic and transit performance
-- Monitor weather impact on mobility
-- Visualize metro and bus network coverage
-- Generate executive-level mobility insights
-- Support data-driven urban transportation planning
+Smart Mobility Analytics Platform is an end-to-end Business Intelligence project developed using **Power BI** to analyze and compare urban transportation systems in **Delhi** and **Bengaluru**.
+
+The project integrates multiple transportation and smart city datasets including GTFS transit feeds, metro ridership, weather, traffic, bike sharing, and demographic information to provide actionable insights for city planners and decision makers.
 
 ---
 
-## Datasets Used
+# 🎯 Objectives
 
-### Public Transport (GTFS)
-- Delhi Bus GTFS
-- Delhi Metro GTFS
-
-Files Used:
-- routes.txt
-- trips.txt
-- stops.txt
-- stop_times.txt
-- agency.txt
-- calendar.txt
-- shapes.txt
-
-### Traffic Dataset
-- Average Speed
-- Distance
-- Road Type
-- Traffic Density
-- Travel Time
-- Weather Condition
-
-### Weather Dataset
-- Temperature
-- Humidity
-- Rainfall
-- Wind Speed
-- Pressure
-- Cloud Cover
-- Feels Like Temperature
-
-### Demographic Dataset
-- Population Statistics
-- Urban Indicators
+- Analyze public transportation performance
+- Monitor metro and bus network efficiency
+- Study traffic congestion patterns
+- Understand weather impact on mobility
+- Compare Delhi and Bengaluru transportation systems
+- Create executive dashboards for decision-making
 
 ---
 
-## Tools & Technologies
+# 🛠️ Tech Stack
 
-- Power BI Desktop
+- Microsoft Power BI
 - DAX
 - Power Query
-- Python
-- Open-Meteo API
-- GTFS Data
+- GTFS Transit Data
+- Microsoft Excel
+- Open-Meteo Weather API
+- CSV Datasets
 
 ---
 
-## Dashboard Pages
+# 📂 Datasets Used
 
-### 1. Executive Dashboard
-- Key Performance Indicators
-- Weather Overview
-- Demographic Insights
+## Delhi
 
-### 2. Traffic Analytics
-- Traffic Density Analysis
-- Average Speed Analysis
-- Road Type Analysis
-- Weather Impact on Traffic
+- Delhi Bus GTFS
+- Delhi Metro GTFS
+- Weather Dataset
+- Traffic Dataset
+- Bike Sharing Dataset
+- Demographic Dataset
 
-### 3. Public Transport Analytics
+## Bengaluru
+
+- Bengaluru Bus GTFS
+- Bengaluru Metro GTFS
+- Metro Ridership Dataset
+- Weather Dataset
+- Traffic Dataset
+- Demographic Dataset
+
+---
+
+# 📊 Dashboards
+
+## 🚍 Delhi Transit Analytics
+
+- Bus Route Analysis
+- Stop Distribution
+- Active Services
+- Route Performance
+- Transit KPIs
+
+---
+
+## 🚇 Delhi Metro Analytics
+
+- Metro Line Analysis
+- Station Analysis
 - Route Distribution
-- Service Analysis
-- Bus Network Insights
+- Metro Operations
+- Service Insights
 
-### 4. Smart Mobility Dashboard
-- Bus Stop Map
-- Metro Station Map
-- Bus vs Metro Comparison
-- Transport Network KPIs
+---
 
-### 5. Executive Intelligence Dashboard
+## 🚦 Delhi Smart Mobility Dashboard
+
+- Traffic Analysis
+- Weather Trends
+- Public Transport Usage
+- Mobility KPIs
+- Travel Behaviour
+
+---
+
+## 📈 Delhi Executive Intelligence Dashboard
+
 - Mobility Health Score
+- Executive KPIs
+- Weather Impact
+- Transport Performance
+- Decision Support Metrics
+
+---
+
+## 🚇 Bengaluru Metro Analytics
+
+- Daily Metro Ridership
+- QR Usage Trends
+- Smart Card vs Token Usage
+- Digital vs Physical Tickets
+- Metro Performance
+
+---
+
+## 🚦 Bengaluru Smart Mobility Dashboard
+
 - Traffic Performance
-- Weather Analytics
-- Executive Insights
+- Weather Analysis
+- Public Transport Usage
+- Speed Analysis
+- Mobility Indicators
 
 ---
 
-## Key Features
+## 📊 Bengaluru Executive Intelligence Dashboard
 
-- Interactive Power BI Dashboards
-- Geospatial Mapping
 - Mobility Health Score
-- Weather Impact Analysis
-- Traffic Analytics
-- Transit Performance Monitoring
-- Smart Mobility KPIs
+- Population Insights
+- Weather Impact
+- Ridership Analysis
+- Executive KPIs
 
 ---
 
-## Key Metrics
+## ⚔️ Delhi vs Bengaluru Dashboard
+
+Comparison of
+
+- Population
+- Public Transport Usage
+- Metro Ridership
+- Average Speed
+- Weather
+- Rainfall
+- Mobility Health Score
+- Routes
+- Stops
+- Traffic Performance
+
+---
+
+# ⭐ Key Features
+
+- GTFS Transit Analytics
+- Metro Analytics
+- Traffic Analytics
+- Weather Analytics
+- Bike Sharing Analytics
+- Executive Intelligence
+- KPI Monitoring
+- Mobility Health Score
+- Multi-City Comparison
+- Interactive Filters
+- Drill-down Analysis
+- Cross Dashboard Navigation
+
+---
+
+# 🏗️ Data Pipeline
+
+Raw Datasets
+
+⬇
+
+Power Query (Cleaning)
+
+⬇
+
+Schema Standardization
+
+⬇
+
+Data Modeling
+
+⬇
+
+Relationships
+
+⬇
+
+DAX Measures
+
+⬇
+
+Power BI Dashboards
+
+⬇
+
+Executive Insights
+
+---
+
+# 📌 KPIs
 
 - Total Routes
 - Total Stops
-- Total Trips
+- Active Services
 - Average Speed
 - Average Temperature
 - Average Humidity
+- Average Rainfall
+- Metro Ridership
+- Public Transport Usage
+- Digital Ticket Usage
+- Physical Ticket Usage
 - Mobility Health Score
 
 ---
 
-## Business Impact
+# 📈 Business Impact
 
-This solution helps:
-- Transport Authorities
-- Urban Planners
-- Smart City Teams
-- Government Agencies
+The platform helps city planners and transportation authorities to:
 
-to make informed decisions regarding urban mobility, traffic management, and public transport planning.
+- Monitor transport performance
+- Improve public transport planning
+- Analyze congestion
+- Measure weather impacts
+- Compare city performance
+- Support data-driven decisions
 
 ---
 
-## Author
+# 🚀 Future Enhancements
 
-Sameer Singh
-B.Tech
-Data Analytics Intern
+- Real-time GTFS Integration
+- Live Traffic APIs
+- IoT Sensor Data
+- Predictive Analytics
+- AI-based Congestion Forecasting
+- Route Optimization
+- Mobile Dashboard
+
+---
+
+# ⭐ If you found this project useful, don't forget to Star the repository!
